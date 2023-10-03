@@ -1,0 +1,9 @@
+function f() {
+  let arr =Array.prototype.join.call(arguments);
+  console.log(arr)
+  let alpha=[]
+  alpha.push(arr)
+  console.log(alpha)
+}
+
+f([1,2,3,4],5,6);
